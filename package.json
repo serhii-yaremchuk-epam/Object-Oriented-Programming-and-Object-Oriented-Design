@@ -1,0 +1,24 @@
+{
+  "name": "01_oop_and_ood",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test:point": "jest test/Point.spec.ts",
+    "test:shape": "jest test/Shape.spec.ts",
+    "test:triangle": "jest test/Triangle.spec.ts",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^26.0.14",
+    "jest": "^26.4.2",
+    "ts-jest": "^26.4.0",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  }
+}
