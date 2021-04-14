@@ -2,7 +2,7 @@ import {Item} from "./Item";
 import {ItemComparator} from "./ItemComparator";
 
 export class Inventory {
-  private items: Item[];
+  private items: Item[] = [];
 
   public addItem(item: Item): void {
     this.items.push(item);

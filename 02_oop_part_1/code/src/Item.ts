@@ -64,4 +64,6 @@ export abstract class Item implements Comparable<Item> {
     private static reset(): void {
         id = Item.numberOfItems = 0;
     }
+
+    public abstract use(): void;
 }

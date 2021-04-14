@@ -4,9 +4,9 @@ export abstract class Weapon extends Item {
   protected static MODIFIER_CHANGE_RATE: number = 0.05;
 
   protected baseDamage: number;
-  protected damageModifier: number;
+  protected damageModifier: number = 0;
   protected baseDurability: number;
-  protected durabilityModifier: number;
+  protected durabilityModifier: number = 0;
 
   constructor(name: string, baseDamage: number, baseDurability: number, value: number, weight: number) {
     super(name, value, weight);
